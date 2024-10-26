@@ -19,12 +19,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		24F9F4732CC54E440065B222 /* C_code_alo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_code_alo; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F9F4732CC54E440065B222 /* C_code_alo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C_code_alo; path = /Users/heatdeathot/Ac/GitRepo/C_code_alo/build/Debug/C_code_alo; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		240B49B42CCD0B2A00DBC277 /* Exceptions for "Oppsited_pointer" folder in "C_code_alo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Trap_water.c,
+			);
+			target = 24F9F4722CC54E440065B222 /* C_code_alo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		243747442CCD3DD000893F60 /* Sliding_window */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sliding_window;
+			sourceTree = "<group>";
+		};
 		24F9F4852CC54F570065B222 /* Oppsited_pointer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				240B49B42CCD0B2A00DBC277 /* Exceptions for "Oppsited_pointer" folder in "C_code_alo" target */,
+			);
 			path = Oppsited_pointer;
 			sourceTree = "<group>";
 		};
@@ -45,16 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				24F9F4852CC54F570065B222 /* Oppsited_pointer */,
-				24F9F4742CC54E440065B222 /* Products */,
+				243747442CCD3DD000893F60 /* Sliding_window */,
 			);
-			sourceTree = "<group>";
-		};
-		24F9F4742CC54E440065B222 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24F9F4732CC54E440065B222 /* C_code_alo */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +83,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				243747442CCD3DD000893F60 /* Sliding_window */,
 				24F9F4852CC54F570065B222 /* Oppsited_pointer */,
 			);
 			name = C_code_alo;
@@ -107,7 +118,7 @@
 			mainGroup = 24F9F46A2CC54E440065B222;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 24F9F4742CC54E440065B222 /* Products */;
+			productRefGroup = 24F9F46A2CC54E440065B222;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
