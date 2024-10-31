@@ -33,6 +33,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		241CBB072CD250BF001AD64D /* Binary_search */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Binary_search;
+			sourceTree = "<group>";
+		};
+		241CBB1D2CD268A8001AD64D /* Daily_question */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Daily_question;
+			sourceTree = "<group>";
+		};
 		243747442CCD3DD000893F60 /* Sliding_window */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Sliding_window;
@@ -62,6 +72,8 @@
 		24F9F46A2CC54E440065B222 = {
 			isa = PBXGroup;
 			children = (
+				241CBB1D2CD268A8001AD64D /* Daily_question */,
+				241CBB072CD250BF001AD64D /* Binary_search */,
 				24F9F4852CC54F570065B222 /* Oppsited_pointer */,
 				243747442CCD3DD000893F60 /* Sliding_window */,
 				24F513C22CCFB71E00F05A67 /* C_code_alo */,
@@ -84,6 +96,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				241CBB072CD250BF001AD64D /* Binary_search */,
+				241CBB1D2CD268A8001AD64D /* Daily_question */,
 				243747442CCD3DD000893F60 /* Sliding_window */,
 				24F9F4852CC54F570065B222 /* Oppsited_pointer */,
 			);
